@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg-curve-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.general-container {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(243, 87%, 12%);
+  padding: 7rem 13rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.first-container {
+    display: flex;
+    align-items: center;   /*Align items vertically*/
+    gap: 6rem;
+    justify-content: space-between; /*align the image with the right side of the body and header*/
+}
+
+.first-background-image {
+    /*flex: 1;
+    text-align: center;*/
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.first-background-image img {
+    /*to reduce the size of the image*/
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.text-container h1 {
+    margin-bottom: 2rem;
+}
+
+h1 {
+   font-size: 400; 
+}
+
+.first-paragragh {
+    margin-bottom: 2rem;
+    width: 28rem;
+}
+
+button {
+    padding: 0.7rem 3rem;
+    border-radius: 0.3rem;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+}
+
+input {
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+}
+
+
+
+.second-container {
+    display: flex;
+    margin: 6rem 0rem 0rem 0rem;
+    padding: 10rem 0rem 0rem 0rem;
+    background-color: hsl(240, 75%, 98%) ;
+}
+
+.second-image img {
+    max-width: 500px;
+    max-height: 300px;
+    margin: 3rem 0rem 0rem 0rem;
+}
+
+.identify img {
+    border-radius: 5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.identify {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.testimonial {
+    background-color: white;
+    width: 17rem;
+    padding: 2rem;
+    margin: 1rem 0rem 4rem 0rem;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adding shadow */
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-small;
+}
+
+.name-and-role {
+    padding: 5px;
+}
+
+.arrow-tag {
+    display: flex;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+#arrow-tag {
+    color: hsl(170, 45%, 43%);
+}
+
+.arrow {
+    margin-top: 2px;
+}
+
+.second-button {
+    margin-top: 1rem;
+}
+
+.third-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(238, 22%, 44%);
+    padding: 7rem 0.5rem ;
+    color: white;
+}
+
+/*increase the length of the input box*/
+.second-input {
+    width: 20rem;
+}
+
+.third-text {
+    width: 50%;
+}
+
+.third-container-paragraph {
+    margin: 1rem;
+    line-height: 10px;
+}
+
+.fourth-container {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
